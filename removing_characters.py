@@ -18,6 +18,6 @@ word_given = input("Enter your word: ")
 print(word_given)
 
 # Removing the number of the characters from given word
-remove_character = int(input("Please enter number of letters to remove: "))
-print("Removing characters from a string")
-print(word_given [remove_character:])
+remove_character = int(input("Please enter the number of letters to remove: "))
+print("Removing characters from the string")
+print(word_given[remove_character:])
